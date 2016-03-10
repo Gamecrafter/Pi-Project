@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+	<title>Project Pi</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="icon" href="images/favicon.png" type="image/png">
+	<link rel="stylesheet" href="css/style.css">
+	<!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css"><![endif]-->
+	<!--[if lte IE 8]><script src="js/ie/html5shiv.js"></script><![endif]-->
+    </head>
+    <body>
+	<div id="header">
+            <img src="images/pi.png" class="logo icon" id="pi">
+            <h1>Hi, my name is <span id="name">Pi</span>.</h1>
+            <p>You've probably heard about me from your math teachers or whatsoever.</p>
+	</div>
+	<div id="main">
+            <header class="major container">
+		<h2>"Love is like pi - natural, irrational, and very important." - Lisa Hoffman</h2>
+            </header>
+            <div class="box alt container">
+		<section class="feature left">
+                    <img src="images/1.png" class="image icon">
+                    <div class="content">
+			<h3>What exactly am I?</h3>
+                        <p>
+                            I am a <strong>mathematical constant</strong>, the ratio of a circle's circumference to 
+                            its diameter, commonly approximated as <strong>3.14159</strong>. I've been represented by 
+                            the Greek letter "&pi;" since the <strong>mid-18th century</strong>, though I've also 
+                            sometimes spelt out as "pi".
+                        </p>
+                    </div>
+		</section>
+		<section class="feature right">
+                    <img src="images/2.png" class="image icon">
+                    <div class="content">
+			<h3>Who discovered me first?</h3>
+                        <p>
+                            Many ancient civilizations knew about me, but they could not find my exact value. Neither
+                            could humans today. <strong>William Jones</strong> was the first to use the &pi; symbol to
+                            represent the concept.
+                        </p>
+                    </div>
+		</section>
+		<section class="feature left">
+                    <img src="images/3.png" class="image icon">
+                    <div class="content">
+			<h3>When am I celebrated?</h3>
+                        <p>
+                            I'm celebrated on <strong>March 14</strong> every year.
+                        </p>
+                    </div>
+		</section>
+                <section class="feature right">
+                    <img src="images/4.png" class="image icon">
+                    <div class="content">
+                        <h3>History</h3>
+                        <p>Text here</p>
+                    </div>
+                </section>
+                <section class="feature left">
+                    <img src="images/5.png" class="image icon">
+                    <div class="content">
+                        <h3>Interesting Facts</h3>
+                        <p>Text here</p>
+                    </div>
+                </section>
+                <section class="feature right">
+                    <img src="images/6.png" class="image icon">
+                    <div class="content">
+                        <h3>Latest Development</h3>
+                        <p>Text here</p>
+                    </div>
+                </section>
+                <section class="feature left">
+                    <img src="images/7.png" class="image icon">
+                    <div class="content">
+                        <h3>Memorizing Me</h3>
+                        <p>Text here</p>
+                    </div>
+                </section>
+            </div>
+	</div>
+	<div id="footer">
+            <div class="container">
+		<header class="major last">
+                    <h2>Questions or comments?</h2>
+		</header>
+                <p>
+                    Meh, I'm too lazy to answer your questions, go ask Ms. Chang or something. I wanna eat my pie 
+                    already. Feel free to comment on how the group did!
+                </p>
+		<ul class="copyright">
+                    <li>&copy; 2016 Gamecrafter</li>
+		</ul>
+            </div>
+	</div>
+        <script>
+            var colors = [
+                "ff9999", "ffad99", "ffcc99", "ffd699", "ffe699", "ffff99",
+                "e6ff99", "ddff99", "99ff99", "99ffbb", "99ffcc", "99ffe6",
+                "99ffff", "99ddff", "99e6ff", "99ccff", "99b3ff", "9999ff",
+                "adadeb", "c299ff", "cc99ff", "eb99ff", "ff99ff", "ff99e6",
+                "ebadd6", "e6b3cc", "ff99cc"
+            ];
+            var active = 0;
+            setInterval(function(){
+                document.getElementById("pi").style.background = "#"+colors[active];
+                document.getElementById("name").style.color = "#"+colors[active];
+                active++;
+                if(active === colors.length) active = 0;
+            }, 500);
+        </script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/skel.min.js"></script>
+	<script src="js/util.js"></script>
+	<!--[if lte IE 8]><script src="js/ie/respond.min.js"></script><![endif]-->
+	<script src="js/main.js"></script>
+    </body>
+</html>

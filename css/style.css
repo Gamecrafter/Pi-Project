@@ -2607,6 +2607,7 @@
 		padding: calc(460px + 6em) 0 10em 0;
 		position: relative;
 		text-align: center;
+                transition: ease-in-out .6s;
 	}
 
 		#footer:before {
@@ -2629,7 +2630,7 @@
 		}
 
 		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
-			color: #ffffff;
+			color: #696969;
 		}
 
 		#footer header p {
@@ -2669,6 +2670,10 @@
 			margin: 3em 0;
 		}
 
+                #footer .end{
+                        color: #696969;
+                }
+                
 		#footer .copyright {
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 0.8em;
@@ -2678,6 +2683,7 @@
 
 			#footer .copyright li {
 				border-left: dotted 1px;
+                                color: #696969;
 				display: inline-block;
 				margin-left: 1em;
 				padding-left: 1em;
@@ -2839,7 +2845,7 @@
 				}
                                 
                                 #pi, #name{
-                                        transition: ease-in .6s;
+                                        transition: ease-in-out .6s;
                                 }
 		/* Footer */
 

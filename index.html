@@ -47,7 +47,7 @@
                     <div class="content">
 			<h3>When am I celebrated?</h3>
                         <p>
-                            I'm celebrated on <strong>March 14</strong> every year.
+                            I'm celebrated on <strong>March 14</strong> every year. People usually eat pie on that day.
                         </p>
                     </div>
 		</section>
@@ -86,7 +86,7 @@
 		<header class="major last">
                     <h2>Questions or comments?</h2>
 		</header>
-                <p>
+                <p class="end">
                     Meh, I'm too lazy to answer your questions, go ask Ms. Chang or something. I wanna eat my pie 
                     already. Feel free to comment on how the group did!
                 </p>
@@ -107,9 +107,9 @@
             setInterval(function(){
                 document.getElementById("pi").style.background = "#"+colors[active];
                 document.getElementById("name").style.color = "#"+colors[active];
-                active++;
-                if(active === colors.length) active = 0;
-            }, 500);
+                document.getElementById("footer").style.backgroundColor = "#"+colors[active];
+                if(++active === colors.length) active = 0;
+            }, 800);
         </script>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/skel.min.js"></script>

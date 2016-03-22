@@ -2,11 +2,17 @@
 <html>
     <head>
 	<title>Project Pi</title>
-	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
         <link rel="icon" href="images/favicon.png" type="image/png">
 	<link rel="stylesheet" href="assets/css/style.css">
 	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css"><![endif]-->
 	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="assets/js/main.js"></script>
     </head>
     <body>
 	<div id="header">
@@ -128,13 +134,8 @@
                 document.getElementById("pi").style.background = "#"+colors[active];
                 document.getElementById("name").style.color = "#"+colors[active];
                 document.getElementById("footer").style.backgroundColor = "#"+colors[active];
-                if(++active === colors.length) active = 0;
-            }, 800);
+                if(++active > colors.length) active = 0;
+            }, 1000);
         </script>
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/skel.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="assets/js/main.js"></script>
     </body>
 </html>

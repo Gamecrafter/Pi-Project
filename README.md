@@ -6,3 +6,10 @@ a website, the teacher said it only had to be a PowerPoint presentation. This wa
 - CSS
 - HTML
 - JavaScript
+
+###Resources utilized:
+- Directive by HTML5 UP
+- HTML5 Shiv
+- jQuery
+- Respond
+- skel

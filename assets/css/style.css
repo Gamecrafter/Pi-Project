@@ -1,5 +1,5 @@
 @import url("font-awesome.min.css");
-@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic");
 
 /*
 	Directive by HTML5 UP
@@ -2578,7 +2578,7 @@
 			text-align: center;
 			width: 2.35em;
 		}
-                
+
 		#header h1 {
 			font-size: 2.5em;
 			margin: 0;
@@ -2676,7 +2676,7 @@
                 #footer .end{
                         color: #696969;
                 }
-                
+
 		#footer .copyright {
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 0.8em;
@@ -2846,12 +2846,12 @@
 				#header p {
 					font-size: 1.15em;
 				}
-                                
+
                                 #pi{
                                         background: #ffffff;
                                         transition: ease-in-out .6s;
                                 }
-                                
+
                                 #name{
                                         color: #ffffff;
                                         transition: ease-in-out .6s;
